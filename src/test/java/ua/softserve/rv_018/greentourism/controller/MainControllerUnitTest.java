@@ -19,7 +19,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 public class MainControllerUnitTest {
 
-    private MockMvc mockMvc
+    private MockMvc mockMvc;
 
     @Mock
     private HttpServletRequest request;
