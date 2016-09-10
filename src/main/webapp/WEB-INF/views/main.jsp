@@ -8,7 +8,7 @@
 	var _contextPath = "${pageContext.request.contextPath}";
 </script>
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/bower_components/materialize/dist/css/materialize.css">
-<link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/app/css/map.css">
 </head>
 <body>
@@ -40,7 +40,7 @@
 	</c:choose>
 	
 	<!-- Leaf map js library -->
-	<script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+	<script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
 	<!-- Bower components -->
 	<script src="${pageContext.request.contextPath}/resources/bower_components/angular/angular.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/bower_components/angular-route/angular-route.js"></script>
